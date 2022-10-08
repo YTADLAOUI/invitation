@@ -1,0 +1,187 @@
+.logoCmp {
+    width: 100%;
+    padding: 30px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.list-partner ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner2 ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner3 ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner ul li {
+    width: 36%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner2 ul li {
+    width: 36%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner3 ul li {
+    width: 36%;
+    height: 40px;
+    margin: 0 50px;
+}
+
+.list-partner ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.list-partner2 ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.list-partner3 ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+
+/* .list-partner {
+    width: 100%;
+}
+
+.list-partner ul {
+    display: flex;
+    list-style: none;
+}
+
+.list-partner ul li {
+    width: 15%;
+    height: 40px;
+    margin: 0 20px;
+}
+
+.list-partner ul li img {
+    width: 70%;
+    height: 100%;
+}
+
+.container {
+    width: 1200px;
+    margin: 35px;
+    flex-wrap: wrap;
+} */
+
+
+/*youssef aziz part2*/
+
+
+/* .cash img {
+    width: 1.8rem;
+    height: 1.8rem;
+} */
+
+.vrai {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.cash {
+    display: flex;
+    align-items: center;
+}
+
+.line>* {
+    padding: 5px;
+}
+
+.aziz-youssef {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aziz-youssef>* {
+    flex-basis: 28%;
+    padding-top: 3%;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 3%;
+    font-size: 15px;
+}
+
+.img8 {
+    position: relative;
+    margin-right: 5%;
+}
+
+.img8 img {
+    position: absolute;
+    width: 90%;
+    height: 90%;
+}
+
+.line h3 {
+    margin: 5px;
+}
+
+.mid>* {
+    justify-content: center;
+    font-size: 75%;
+}
+
+.button {
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button button {
+    border: none;
+    background-image: linear-gradient(to right, #FA7A33, #AD369D);
+    border-radius: 5px 5px;
+    width: 200px;
+    height: 50PX;
+    color: azure;
+}
+
+@media screen and (max-width: 900px) {
+    .img8.delet {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    .aziz-youssef {
+        display: flex;
+        /* flex-direction: row; */
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .img8.ar {
+        display: none;
+        width: 0%;
+        height: 0%;
+    }
+    .aziz-youssef {
+        display: flex;
+        justify-content: center;
+    }
+}
